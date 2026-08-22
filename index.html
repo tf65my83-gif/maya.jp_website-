@@ -42,11 +42,29 @@ header{
 
 }
 
-header a{color:#29271f;text-decoration:none}
+header a{
 
-.logo{font-size:20px;letter-spacing:.25em}
+  color:#29271f;
 
-nav{font-size:12px;letter-spacing:.15em}
+  text-decoration:none;
+
+}
+
+.logo{
+
+  font-size:20px;
+
+  letter-spacing:.25em;
+
+}
+
+nav{
+
+  font-size:12px;
+
+  letter-spacing:.15em;
+
+}
 
 .hero{
 
@@ -62,23 +80,15 @@ nav{font-size:12px;letter-spacing:.15em}
 
 }
 
-.hero h1{
+.hero img{
 
-  font-size:clamp(80px,17vw,190px);
+  max-width:85vw;
 
-  font-weight:400;
+  max-height:80vh;
 
-  letter-spacing:.12em;
+  object-fit:contain;
 
-  margin:0;
-
-}
-
-.hero p{
-
-  font-size:11px;
-
-  letter-spacing:.3em;
+  display:block;
 
 }
 
@@ -190,7 +200,11 @@ h2{
 
 }
 
-.contact h2{letter-spacing:.15em}
+.contact h2{
+
+  letter-spacing:.15em;
+
+}
 
 footer{
 
@@ -210,13 +224,29 @@ footer{
 
 @media(max-width:700px){
 
-  section{padding:90px 7vw}
+  section{
 
-  .collection{grid-template-columns:1fr}
+    padding:90px 7vw;
 
-  .look{height:55vh}
+  }
 
-  .photo{height:60vh}
+  .collection{
+
+    grid-template-columns:1fr;
+
+  }
+
+  .look{
+
+    height:55vh;
+
+  }
+
+  .photo{
+
+    height:60vh;
+
+  }
 
 }
 
@@ -230,7 +260,11 @@ footer{
 
   <a class="logo" href="#">maya</a>
 
-  <nav><a href="#collection">collection</a></nav>
+  <nav>
+
+    <a href="#collection">collection</a>
+
+  </nav>
 
 </header>
 
@@ -238,13 +272,7 @@ footer{
 
 <div class="hero">
 
-  <div>
-
-    <h1>maya</h1>
-
-    <p>CLOTHING / PRAYER / HANDMADE</p>
-
-  </div>
+  <img src="maya-top.png" alt="maya">
 
 </div>
 
@@ -262,19 +290,19 @@ footer{
 
     <p class="about-text">
 
-日々感じる願いや迷いを、mayaのフィルターを通して目に見える形に昇華させる。
+      日々感じる願いや迷いを、mayaのフィルターを通して目に見える形に昇華させる。
 
-</p>
+    </p>
 
-<p class="about-text">
+    <p class="about-text">
 
-maya gives visible form to the wishes and uncertainties of everyday life,
+      maya gives visible form to the wishes and uncertainties of everyday life,
 
-filtering through memories and movements, the lives lived upon the land,
+      filtering through memories and movements, the lives lived upon the land,
 
-and the memories and traditions carried across generations.
+      and the memories and traditions carried across generations.
 
-</p>
+    </p>
 
   </div>
 
