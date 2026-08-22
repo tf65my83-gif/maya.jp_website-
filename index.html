@@ -1,0 +1,321 @@
+<!doctype html>
+
+<html lang="ja">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>maya</title>
+
+<style>
+
+*{box-sizing:border-box}
+
+body{
+
+  margin:0;
+
+  background:#f2eee5;
+
+  color:#29271f;
+
+  font-family:Arial,"Hiragino Kaku Gothic ProN",sans-serif;
+
+}
+
+header{
+
+  position:fixed;
+
+  top:0;left:0;right:0;
+
+  display:flex;
+
+  justify-content:space-between;
+
+  padding:24px 28px;
+
+  z-index:10;
+
+}
+
+header a{color:#29271f;text-decoration:none}
+
+.logo{font-size:20px;letter-spacing:.25em}
+
+nav{font-size:12px;letter-spacing:.15em}
+
+.hero{
+
+  height:100vh;
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+  text-align:center;
+
+}
+
+.hero h1{
+
+  font-size:clamp(80px,17vw,190px);
+
+  font-weight:400;
+
+  letter-spacing:.12em;
+
+  margin:0;
+
+}
+
+.hero p{
+
+  font-size:11px;
+
+  letter-spacing:.3em;
+
+}
+
+.photo{
+
+  height:75vh;
+
+  margin:0 5vw;
+
+  background:
+
+    linear-gradient(135deg,#b6aa91,#d8d0bd 50%,#777361);
+
+  display:flex;
+
+  align-items:flex-end;
+
+  padding:20px;
+
+  color:white;
+
+  font-size:10px;
+
+  letter-spacing:.18em;
+
+}
+
+section{
+
+  padding:130px 9vw;
+
+}
+
+.about{
+
+  max-width:700px;
+
+}
+
+.label{
+
+  font-size:10px;
+
+  letter-spacing:.25em;
+
+  margin-bottom:35px;
+
+}
+
+h2{
+
+  font-size:clamp(30px,5vw,58px);
+
+  font-weight:400;
+
+  line-height:1.3;
+
+}
+
+.about p{
+
+  font-size:14px;
+
+  line-height:2.2;
+
+}
+
+.collection{
+
+  display:grid;
+
+  grid-template-columns:1fr 1fr;
+
+  gap:18px;
+
+}
+
+.look{
+
+  height:65vh;
+
+  display:flex;
+
+  align-items:flex-end;
+
+  padding:20px;
+
+  color:white;
+
+  font-size:10px;
+
+  letter-spacing:.15em;
+
+}
+
+.look:nth-child(1){background:#aaa18d}
+
+.look:nth-child(2){background:#777968}
+
+.look:nth-child(3){background:#b49f84}
+
+.look:nth-child(4){background:#56574d}
+
+.contact{
+
+  text-align:center;
+
+  border-top:1px solid #aaa39a;
+
+}
+
+.contact h2{letter-spacing:.15em}
+
+footer{
+
+  border-top:1px solid #aaa39a;
+
+  padding:20px 28px;
+
+  font-size:9px;
+
+  letter-spacing:.15em;
+
+  display:flex;
+
+  justify-content:space-between;
+
+}
+
+@media(max-width:700px){
+
+  section{padding:90px 7vw}
+
+  .collection{grid-template-columns:1fr}
+
+  .look{height:55vh}
+
+  .photo{height:60vh}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+  <a class="logo" href="#">maya</a>
+
+  <nav><a href="#collection">collection</a></nav>
+
+</header>
+
+<main>
+
+<div class="hero">
+
+  <div>
+
+    <h1>maya</h1>
+
+    <p>CLOTHING / PRAYER / HANDMADE</p>
+
+  </div>
+
+</div>
+
+<div class="photo">
+
+  PHOTO / COMING SOON
+
+</div>
+
+<section>
+
+  <div class="about">
+
+    <div class="label">ABOUT MAYA</div>
+
+    <h2>祈りのかたちを、<br>日常の服へ。</h2>
+
+    <p>
+
+      世界のさまざまな文化や手仕事から受け取った感覚を、
+
+      現代の衣服として再構成する。
+
+      素材の表情、手で残した痕跡、土地の記憶。
+
+      mayaは、それらが静かに残る服をつくります。
+
+    </p>
+
+  </div>
+
+</section>
+
+<section id="collection">
+
+  <div class="label">COLLECTION</div>
+
+  <div class="collection">
+
+    <div class="look">LOOK 01 / PHOTO COMING SOON</div>
+
+    <div class="look">LOOK 02 / PHOTO COMING SOON</div>
+
+    <div class="look">LOOK 03 / PHOTO COMING SOON</div>
+
+    <div class="look">LOOK 04 / PHOTO COMING SOON</div>
+
+  </div>
+
+</section>
+
+<section class="contact">
+
+  <div class="label">CONTACT</div>
+
+  <h2>maya</h2>
+
+  <p>Instagram / Exhibition / Wholesale</p>
+
+</section>
+
+</main>
+
+<footer>
+
+  <span>maya</span>
+
+  <span>© 2026 maya</span>
+
+</footer>
+
+</body>
+
+</html>
