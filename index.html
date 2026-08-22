@@ -84,10 +84,6 @@ nav{
 
   justify-content:center;
 
-  text-align:center;
-
-  padding:0;
-
   background:#ffffff;
 
   overflow:hidden;
@@ -105,6 +101,90 @@ nav{
   display:block;
 
 }
+
+/* NEWS */
+
+.news{
+
+  padding:90px 9vw 100px;
+
+  border-top:1px solid #aaa39a;
+
+}
+
+.news-title{
+
+  display:flex;
+
+  justify-content:space-between;
+
+  align-items:baseline;
+
+  margin-bottom:45px;
+
+}
+
+.news-title h2{
+
+  margin:0;
+
+  font-size:12px;
+
+  font-weight:400;
+
+  letter-spacing:.25em;
+
+}
+
+.news-title a{
+
+  color:#29271f;
+
+  text-decoration:none;
+
+  font-size:10px;
+
+  letter-spacing:.15em;
+
+}
+
+.news-item{
+
+  display:flex;
+
+  gap:40px;
+
+  padding:18px 0;
+
+  border-bottom:1px solid #ddd9d2;
+
+  color:#29271f;
+
+  text-decoration:none;
+
+  font-size:12px;
+
+}
+
+.news-date{
+
+  width:90px;
+
+  flex-shrink:0;
+
+  font-size:10px;
+
+  letter-spacing:.1em;
+
+}
+
+.news-text{
+
+  letter-spacing:.08em;
+
+}
+
+/* PHOTO */
 
 .photo{
 
@@ -258,18 +338,6 @@ h2{
 
 }
 
-footer{
-
-  border-top:1px solid #aaa39a;
-
-  padding:20px 28px;
-
-  font-size:9px;
-
-  letter-spacing:.15em;
-
-}
-
 @media(max-width:700px){
 
   section{
@@ -308,7 +376,23 @@ footer{
 
     height:110vh;
 
-    object-fit:contain;
+  }
+
+  .news{
+
+    padding:70px 7vw 80px;
+
+  }
+
+  .news-item{
+
+    gap:20px;
+
+  }
+
+  .news-date{
+
+    width:70px;
 
   }
 
@@ -334,7 +418,7 @@ footer{
 
   <nav>
 
-    <a href="#collection">collection</a>
+    <a href="#news">news</a>
 
   </nav>
 
@@ -342,17 +426,73 @@ footer{
 
 <main>
 
+<!-- TOP -->
+
 <div class="hero">
 
   <img src="maya-top.PNG" alt="maya">
 
 </div>
 
+<!-- NEWS -->
+
+<section class="news" id="news">
+
+  <div class="news-title">
+
+    <h2>NEWS</h2>
+
+    <a href="news.html">VIEW ALL →</a>
+
+  </div>
+
+  <a class="news-item" href="news.html">
+
+    <span class="news-date">2026.09.01</span>
+
+    <span class="news-text">
+
+      Exhibition “selah”
+
+    </span>
+
+  </a>
+
+  <a class="news-item" href="news.html">
+
+    <span class="news-date">2026.08.25</span>
+
+    <span class="news-text">
+
+      maya website open
+
+    </span>
+
+  </a>
+
+  <a class="news-item" href="news.html">
+
+    <span class="news-date">2026.08.20</span>
+
+    <span class="news-text">
+
+      New collection coming soon
+
+    </span>
+
+  </a>
+
+</section>
+
+<!-- PHOTO -->
+
 <div class="photo">
 
   PHOTO / COMING SOON
 
 </div>
+
+<!-- ABOUT -->
 
 <section>
 
@@ -380,6 +520,8 @@ footer{
 
 </section>
 
+<!-- COLLECTION -->
+
 <section id="collection">
 
   <div class="label">COLLECTION</div>
@@ -398,6 +540,8 @@ footer{
 
 </section>
 
+<!-- CONTACT -->
+
 <section class="contact">
 
   <div class="label">CONTACT</div>
@@ -415,10 +559,6 @@ footer{
 </section>
 
 </main>
-
-<footer>
-
-</footer>
 
 </body>
 
