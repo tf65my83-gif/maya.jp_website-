@@ -188,31 +188,45 @@ nav{
 
 }
 
-/* PHOTO */
+/* NEW PIECES */
 
-.photo{
+.new-pieces{
 
-  height:75vh;
+  padding:130px 9vw;
 
-  margin:0 5vw;
+  text-align:center;
 
-  background:
+}
 
-    linear-gradient(135deg,#b6aa91,#d8d0bd 50%,#777361);
+.new-pieces a{
 
-  display:flex;
+  color:#29271f;
 
-  align-items:flex-end;
+  text-decoration:none;
 
-  padding:20px;
+  display:block;
 
-  color:white;
+}
+
+.new-pieces-title{
+
+  font-size:12px;
+
+  letter-spacing:.2em;
+
+  margin-bottom:18px;
+
+}
+
+.new-pieces-coming{
 
   font-size:10px;
 
   letter-spacing:.18em;
 
 }
+
+/* ABOUT */
 
 section{
 
@@ -416,6 +430,12 @@ h2{
 
   }
 
+  .new-pieces{
+
+    padding:90px 7vw;
+
+  }
+
   .collection{
 
     grid-template-columns:1fr;
@@ -431,12 +451,6 @@ h2{
   .selah-cover{
 
     height:55vh;
-
-  }
-
-  .photo{
-
-    height:60vh;
 
   }
 
@@ -564,13 +578,27 @@ h2{
 
 </section>
 
-<!-- PHOTO -->
+<!-- NEW PIECES -->
 
-<div class="photo">
+<section class="new-pieces">
 
-  PHOTO / COMING SOON
+  <a href="shop.html">
 
-</div>
+    <div class="new-pieces-title">
+
+      NEW PIECES
+
+    </div>
+
+    <div class="new-pieces-coming">
+
+      COMING SOON
+
+    </div>
+
+  </a>
+
+</section>
 
 <!-- ABOUT -->
 
@@ -634,11 +662,11 @@ h2{
 
     </a>
 
-    <a href="mailto:">
+    <span>
 
       Email
 
-    </a>
+    </span>
 
   </div>
 
