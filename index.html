@@ -272,25 +272,57 @@ h2{
 
 }
 
-.selah-collection{
+.selah-cover{
+
+  position:relative;
+
+  display:block;
+
+  width:100%;
+
+  height:65vh;
+
+  overflow:hidden;
+
+  color:white;
+
+  text-decoration:none;
+
+}
+
+.selah-cover img{
+
+  width:100%;
+
+  height:100%;
+
+  object-fit:cover;
+
+  display:block;
+
+}
+
+.selah-cover span{
+
+  position:absolute;
+
+  left:20px;
+
+  bottom:20px;
+
+  font-size:10px;
+
+  letter-spacing:.15em;
+
+}
+
+.collection{
 
   display:grid;
 
   grid-template-columns:1fr 1fr;
 
   gap:18px;
-
-  margin-bottom:100px;
-
-}
-
-.selah-collection img{
-
-  width:100%;
-
-  height:auto;
-
-  display:block;
 
 }
 
@@ -380,13 +412,19 @@ h2{
 
   }
 
-  .selah-collection{
+  .collection{
 
     grid-template-columns:1fr;
 
   }
 
   .look{
+
+    height:55vh;
+
+  }
+
+  .selah-cover{
 
     height:55vh;
 
@@ -558,57 +596,13 @@ h2{
 
   <div class="selah-title">SELAH</div>
 
-  <div class="selah-collection">
+  <a class="selah-cover" href="selah.html">
 
-    <img src="maya _selah_collection1 .heic" alt="maya selah collection 1">
+    <img src="maya _selah_collection1 .heic" alt="maya selah collection">
 
-    <img src="maya_selah_collection2 .JPG" alt="maya selah collection 2">
+    <span>SELAH →</span>
 
-    <img src="maya_selah_collection3.HEIC" alt="maya selah collection 3">
-
-    <img src="maya_selah_collection4 .heic" alt="maya selah collection 4">
-
-    <img src="maya_selah_collection5.jpg" alt="maya selah collection 5">
-
-    <img src="maya_selah_collection6.jpg" alt="maya selah collection 6">
-
-    <img src="maya_selah_collection7.PNG" alt="maya selah collection 7">
-
-    <img src="maya_selah_collection8 .jpg" alt="maya selah collection 8">
-
-    <img src="maya_selah_collection9.jpg" alt="maya selah collection 9">
-
-    <img src="maya_selah_collection10 .PNG" alt="maya selah collection 10">
-
-    <img src="maya_selah_collection11 .PNG" alt="maya selah collection 11">
-
-    <img src="maya_selah_collection12 .PNG" alt="maya selah collection 12">
-
-    <img src="maya_selah_collection13 .HEIC" alt="maya selah collection 13">
-
-    <img src="maya_selah_collection14.JPG" alt="maya selah collection 14">
-
-    <img src="maya_selah_collection15 .jpg" alt="maya selah collection 15">
-
-    <img src="maya_selah_collection16 .heic" alt="maya selah collection 16">
-
-    <img src="maya_selah_collection17.heic" alt="maya selah collection 17">
-
-    <img src="maya_selah_collection18.jpg" alt="maya selah collection 18">
-
-  </div>
-
-  <div class="collection">
-
-    <div class="look">LOOK 01 / PHOTO COMING SOON</div>
-
-    <div class="look">LOOK 02 / PHOTO COMING SOON</div>
-
-    <div class="look">LOOK 03 / PHOTO COMING SOON</div>
-
-    <div class="look">LOOK 04 / PHOTO COMING SOON</div>
-
-  </div>
+  </a>
 
 </section>
 
